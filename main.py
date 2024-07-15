@@ -30,10 +30,10 @@ def run_algorithms_for_dataset(data_preparation_func, true_graph_func, file_path
     # Run LiNGAM Algorithm
     graph_dot_string = run_lingam_algorithm(data, labels)
     
-    # Create and display the true graph
+    # Create and display the true graph ONLY IF the function exists
     if true_graph_func:
         G_true = true_graph_func()
-        plot_true_graph(G_true, 'true_graph.png')
+        plot_true_graph(G_true, dataset_arg)  # Pass the dataset argument for filename
     else:
         G_true = None
         print("True graph function not available for this dataset.")
@@ -55,17 +55,13 @@ if __name__ == "__main__":
             "true_graph_func": create_true_graph_adult
         }
     }
-    
-    dataset = datasets.get(dataset_arg)
-    
-    if not dataset:
-        print(f"Dataset '{dataset_arg}' not found. Available datasets are: {', '.join(datasets.keys())}")
-        sys.exit(1)
-    
-    print(f"Running algorithms for dataset: {dataset['file_path']}")
-    PC_G, G_fci, G_ges, graph_dot_string, G_true = run_algorithms_for_dataset(
-        dataset['data_preparation_func'], 
-        dataset['true_graph_func'], 
-        dataset['file_path']
-    )
-    print(f"Algorithms completed for dataset: {dataset['file_path']}")
+
+    # Get the configuration for the selected dataset
+    dataset_config = datasets.get(dataset_arg)
+
+    if dataset_config:
+        run_algorithms_for_dataset(dataset_config["data_preparation_func"],
+                                   dataset_config["true_graph_func"],
+                                   dataset_config["file_path"])
+    else:
+        print(f"Invalid dataset argument: {dataset_arg}")

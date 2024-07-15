@@ -2,35 +2,32 @@ import networkx as nx
 from causallearn.utils.GraphUtils import GraphUtils
 import matplotlib.pyplot as plt
 import io
-import matplotlib.image as mpimg
 from networkx.drawing.nx_pydot import to_pydot
+import matplotlib.image as mpimg
 
 def create_true_graph_student():
     G_true = nx.DiGraph()
 
-    # Node positions (using tuples for coordinates)
     pos = {
-        "G_avg": (0.176, -0.450),
-        "Medu": (-0.630, 0.589),
-        "Pstatus": (-1.493, -0.841),
-        "absences": (-1.468, 0.878),
-        "address": (-1.971, 1.405),
-        "failures": (1.150, 1.680),
-        "famrel": (-2.149, -1.148),
-        "famsup": (-1.049, -0.302),
-        "health": (-0.688, 0.017),
-        "higher": (0.155, 0.551),
-        "internet": (0.647, 1.138),
-        "paid": (-0.463, -1.386),
-        "schoolsup": (1.035, 0.158),
-        "studytime": (0.302, -1.504)
+        "G_avg": (0.207, -0.688),
+        "Medu": (-0.641, 0.589),
+        "Pstatus": (-1.699, -0.614),
+        "absences": (-1.531, 0.937),
+        "address": (-2.008, 1.450),
+        "failures": (0.873, 1.702),
+        "famrel": (-2.270, -0.747),
+        "famsup": (-1.316, -0.265),
+        "health": (-0.945, 0.076),
+        "higher": (-0.206, 0.589), 
+        "internet": (0.302, 1.034),
+        "paid": (-0.243, -1.400),
+        "schoolsup": (0.867, -0.176),
+        "studytime": (0.799, -1.289)
     }
 
-    # Add nodes with positions
     for node, position in pos.items():
         G_true.add_node(node, pos=position)
 
-    # Add edges
     G_true.add_edges_from([
         ("Medu", "G_avg"),
         ("Medu", "absences"),
@@ -55,18 +52,26 @@ def create_true_graph_student():
 
     return G_true
 
-def plot_true_graph(G_true, filename):
+
+def plot_true_graph(G_true, dataset_name):
+    filename = f"{dataset_name}_true_graph.png"
     pyd = to_pydot(G_true)
 
-    # Save the image in the vector format
-    pyd.write_png(filename)
+    for node in pyd.get_nodes():
+        node.set_fontsize(12) 
 
-    # Read and display the image
+    for edge in pyd.get_edges():
+        edge.set_penwidth(2)
+        
+    plt.figure(figsize=(10,8))
+
+    pyd.write_png(filename) 
+
     img = mpimg.imread(filename)
     plt.axis('off')
     plt.imshow(img)
-    plt.show(block=False) 
+    plt.show(block=False)
 
 if __name__ == "__main__":
     G_true = create_true_graph_student()
-    plot_true_graph(G_true, 'true_graph.png')
+    plot_true_graph(G_true, "student")
