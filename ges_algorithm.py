@@ -1,28 +1,33 @@
 import networkx as nx
 from causallearn.search.ScoreBased.GES import ges
-from plotting_utils import plot_and_save_graph, causal_learn_to_networkx
+from causallearn.utils.GraphUtils import to_networkx_graph
+from plotting_utils import plot_and_save_graph
 
 def run_ges_algorithm(data, labels):
-    """Runs the GES algorithm and returns the estimated causal graph."""
-    record_ges = ges(data)
+    """
+    Runs the GES algorithm with the best parameters and returns the estimated causal graph.
+    """
+    # Best parameters found from tuning
+    score_func = 'local_score_BDeu'
+    maxP = None
 
-    # Convert CausalLearn Graph to NetworkX graph
-    ges_graph = record_ges['G']
-    nx_graph = causal_learn_to_networkx(ges_graph)
+    # Run GES with the best parameters
+    ges_output = ges(data, score_func=score_func, maxP=maxP, parameters={})
 
-    # If the labels are not already strings, convert them
-    if not all(isinstance(label, str) for label in labels):
-        labels = [str(label) for label in labels]
+    # Extract the estimated graph
+    estimated_graph = ges_output['G']
 
-    # Create a dictionary to map nodes to their labels
-    node_label_map = {i: label for i, label in enumerate(labels)}
+    # Convert the CausalLearn GeneralGraph to NetworkX graph
+    nx_graph = nx.DiGraph()
+    for edge in estimated_graph.get_graph_edges():
+        nx_graph.add_edge(edge.node1, edge.node2)
 
     # Relabel nodes using the provided labels
-    nx_graph = nx.relabel_nodes(nx_graph, node_label_map)
+    nx_graph = nx.relabel_nodes(nx_graph, {i: labels[i] for i in range(len(labels))})
 
     # Plot and save the graph
     plot_and_save_graph(nx_graph, labels, 'ges_graph.png')
-
+    
     return nx_graph
 
 if __name__ == "__main__":

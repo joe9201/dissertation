@@ -1,0 +1,27 @@
+name: causal_test
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pandas
+  - scikit-learn
+  - statsmodels
+  - xgboost
+  - plotly
+  - matplotlib
+  - graphviz
+  - ipykernel
+  - nbformat
+  - pip
+  - pip:
+      - plotnine
+      - pycaret
+      - causalml
+      - pandas==1.5.3
+      - scikit-learn==0.24.2
+      - missingno
+      - git+https://github.com/business-science/pytimetk.git
+      - DoubleML
+      - dowhy
+      - tabulate

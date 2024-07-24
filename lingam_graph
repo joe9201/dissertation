@@ -1,0 +1,38 @@
+digraph {
+	absences
+	failures
+	Medu
+	health
+	Pstatus
+	famrel
+	schoolsup
+	G_avg
+	studytime
+	internet_yes
+	higher_yes
+	famsup_yes
+	paid_yes
+	Pstatus -> absences [label=-1.44]
+	famrel -> absences [label=-0.31]
+	studytime -> absences [label=-0.48]
+	internet_yes -> absences [label=0.76]
+	higher_yes -> absences [label=-1.45]
+	higher_yes -> failures [label=-0.54]
+	failures -> Medu [label=-0.18]
+	Pstatus -> Medu [label=-0.19]
+	internet_yes -> Medu [label=0.63]
+	higher_yes -> Medu [label=0.56]
+	famsup_yes -> Medu [label=0.14]
+	paid_yes -> Medu [label=0.42]
+	health -> famrel [label=0.06]
+	failures -> G_avg [label=-1.37]
+	Medu -> G_avg [label=0.32]
+	schoolsup -> G_avg [label=-0.41]
+	studytime -> G_avg [label=0.50]
+	higher_yes -> G_avg [label=1.74]
+	studytime -> higher_yes [label=0.06]
+	studytime -> famsup_yes [label=0.07]
+	{
+		rank=same
+	}
+}
