@@ -1,0 +1,264 @@
+{
+    "nodes": [
+        {
+            "x": 341,
+            "y": 84,
+            "id": 1723714667987,
+            "name": "Medu",
+            "$custom": true,
+            "tags": []
+        },
+        {
+            "x": 459,
+            "y": 155,
+            "id": 1723714683780,
+            "name": "higher_yes",
+            "$custom": true,
+            "tags": []
+        },
+        {
+            "x": 603,
+            "y": 256,
+            "id": 1723714691538,
+            "name": "absences",
+            "$custom": true,
+            "tags": []
+        },
+        {
+            "x": 437,
+            "y": 317,
+            "id": 1723714702392,
+            "name": "failures",
+            "$custom": true,
+            "tags": []
+        },
+        {
+            "x": 492,
+            "y": 387,
+            "id": 1723714717367,
+            "name": "studytime",
+            "$custom": true,
+            "tags": []
+        },
+        {
+            "x": 314,
+            "y": 432,
+            "id": 1723714728544,
+            "name": "G_avg",
+            "$custom": true,
+            "tags": []
+        }
+    ],
+    "links": [
+        {
+            "source": {
+                "x": 341,
+                "y": 84,
+                "id": 1723714667987,
+                "name": "Medu",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 314,
+                "y": 432,
+                "id": 1723714728544,
+                "name": "G_avg",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 341,
+                "y": 84,
+                "id": 1723714667987,
+                "name": "Medu",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 459,
+                "y": 155,
+                "id": 1723714683780,
+                "name": "higher_yes",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 341,
+                "y": 84,
+                "id": 1723714667987,
+                "name": "Medu",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 437,
+                "y": 317,
+                "id": 1723714702392,
+                "name": "failures",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 459,
+                "y": 155,
+                "id": 1723714683780,
+                "name": "higher_yes",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 314,
+                "y": 432,
+                "id": 1723714728544,
+                "name": "G_avg",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 459,
+                "y": 155,
+                "id": 1723714683780,
+                "name": "higher_yes",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 603,
+                "y": 256,
+                "id": 1723714691538,
+                "name": "absences",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 603,
+                "y": 256,
+                "id": 1723714691538,
+                "name": "absences",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 437,
+                "y": 317,
+                "id": 1723714702392,
+                "name": "failures",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 459,
+                "y": 155,
+                "id": 1723714683780,
+                "name": "higher_yes",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 492,
+                "y": 387,
+                "id": 1723714717367,
+                "name": "studytime",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 459,
+                "y": 155,
+                "id": 1723714683780,
+                "name": "higher_yes",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 437,
+                "y": 317,
+                "id": 1723714702392,
+                "name": "failures",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 437,
+                "y": 317,
+                "id": 1723714702392,
+                "name": "failures",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 492,
+                "y": 387,
+                "id": 1723714717367,
+                "name": "studytime",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 492,
+                "y": 387,
+                "id": 1723714717367,
+                "name": "studytime",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 314,
+                "y": 432,
+                "id": 1723714728544,
+                "name": "G_avg",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 437,
+                "y": 317,
+                "id": 1723714702392,
+                "name": "failures",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 314,
+                "y": 432,
+                "id": 1723714728544,
+                "name": "G_avg",
+                "$custom": true,
+                "tags": []
+            }
+        }
+    ],
+    "treatment": "absences",
+    "outcome": "G_avg",
+    "confounds": [
+        "Medu",
+        "higher_yes"
+    ],
+    "mediators": [
+        "failures",
+        "studytime"
+    ],
+    "colliders": [],
+    "prognostics": []
+}

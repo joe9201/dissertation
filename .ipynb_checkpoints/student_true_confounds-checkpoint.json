@@ -1,0 +1,460 @@
+{
+    "nodes": [
+        {
+            "x": 639.6989440917969,
+            "y": 433.69911193847656,
+            "id": 1722245629960,
+            "name": "absences",
+            "$custom": true,
+            "tags": []
+        },
+        {
+            "x": 314.7928161621094,
+            "y": 95.68923950195312,
+            "id": 1722246232324,
+            "name": "Medu",
+            "$custom": true,
+            "tags": []
+        },
+        {
+            "x": 39.55967330932617,
+            "y": 231.50807189941406,
+            "id": 1722246259996,
+            "name": "higher",
+            "$custom": true,
+            "tags": []
+        },
+        {
+            "x": 145.40115356445312,
+            "y": 231.37863159179688,
+            "id": 1722246270485,
+            "name": "paid",
+            "$custom": true,
+            "tags": []
+        },
+        {
+            "x": 256.2782287597656,
+            "y": 226.86083984375,
+            "id": 1722246287904,
+            "name": "schoolsup",
+            "$custom": true,
+            "tags": []
+        },
+        {
+            "x": 372.06146240234375,
+            "y": 229.73138427734375,
+            "id": 1722246304318,
+            "name": "studytime",
+            "$custom": true,
+            "tags": []
+        },
+        {
+            "x": 509.45635986328125,
+            "y": 201.47247314453125,
+            "id": 1722246316104,
+            "name": "health",
+            "$custom": true,
+            "tags": []
+        },
+        {
+            "x": 623.7218017578125,
+            "y": 202.95468139648438,
+            "id": 1722246326587,
+            "name": "internet",
+            "$custom": true,
+            "tags": []
+        },
+        {
+            "x": 741,
+            "y": 204,
+            "id": 1722246360711,
+            "name": "failures",
+            "$custom": true,
+            "tags": []
+        },
+        {
+            "x": 868,
+            "y": 212,
+            "id": 1722246371126,
+            "name": "famsup",
+            "$custom": true,
+            "tags": []
+        },
+        {
+            "x": 945,
+            "y": 286,
+            "id": 1722246403450,
+            "name": "Pstatus",
+            "$custom": true,
+            "tags": []
+        },
+        {
+            "x": 301,
+            "y": 422,
+            "id": 1722246444377,
+            "name": "G_avg",
+            "$custom": true,
+            "tags": []
+        },
+        {
+            "x": 944,
+            "y": 360,
+            "id": 1722246462952,
+            "name": "famrel",
+            "$custom": true,
+            "tags": []
+        },
+        {
+            "x": 799,
+            "y": 386,
+            "id": 1722246474203,
+            "name": "address",
+            "$custom": true,
+            "tags": []
+        }
+    ],
+    "links": [
+        {
+            "source": {
+                "x": 314.7928161621094,
+                "y": 95.68923950195312,
+                "id": 1722246232324,
+                "name": "Medu",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 39.55967330932617,
+                "y": 231.50807189941406,
+                "id": 1722246259996,
+                "name": "higher",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 39.55967330932617,
+                "y": 231.50807189941406,
+                "id": 1722246259996,
+                "name": "higher",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 301,
+                "y": 422,
+                "id": 1722246444377,
+                "name": "G_avg",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 145.40115356445312,
+                "y": 231.37863159179688,
+                "id": 1722246270485,
+                "name": "paid",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 301,
+                "y": 422,
+                "id": 1722246444377,
+                "name": "G_avg",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 256.2782287597656,
+                "y": 226.86083984375,
+                "id": 1722246287904,
+                "name": "schoolsup",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 301,
+                "y": 422,
+                "id": 1722246444377,
+                "name": "G_avg",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 372.06146240234375,
+                "y": 229.73138427734375,
+                "id": 1722246304318,
+                "name": "studytime",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 301,
+                "y": 422,
+                "id": 1722246444377,
+                "name": "G_avg",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 509.45635986328125,
+                "y": 201.47247314453125,
+                "id": 1722246316104,
+                "name": "health",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 301,
+                "y": 422,
+                "id": 1722246444377,
+                "name": "G_avg",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 509.45635986328125,
+                "y": 201.47247314453125,
+                "id": 1722246316104,
+                "name": "health",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 639.6989440917969,
+                "y": 433.69911193847656,
+                "id": 1722245629960,
+                "name": "absences",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 623.7218017578125,
+                "y": 202.95468139648438,
+                "id": 1722246326587,
+                "name": "internet",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 301,
+                "y": 422,
+                "id": 1722246444377,
+                "name": "G_avg",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 623.7218017578125,
+                "y": 202.95468139648438,
+                "id": 1722246326587,
+                "name": "internet",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 639.6989440917969,
+                "y": 433.69911193847656,
+                "id": 1722245629960,
+                "name": "absences",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 741,
+                "y": 204,
+                "id": 1722246360711,
+                "name": "failures",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 301,
+                "y": 422,
+                "id": 1722246444377,
+                "name": "G_avg",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 741,
+                "y": 204,
+                "id": 1722246360711,
+                "name": "failures",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 639.6989440917969,
+                "y": 433.69911193847656,
+                "id": 1722245629960,
+                "name": "absences",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 868,
+                "y": 212,
+                "id": 1722246371126,
+                "name": "famsup",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 301,
+                "y": 422,
+                "id": 1722246444377,
+                "name": "G_avg",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 868,
+                "y": 212,
+                "id": 1722246371126,
+                "name": "famsup",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 639.6989440917969,
+                "y": 433.69911193847656,
+                "id": 1722245629960,
+                "name": "absences",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 945,
+                "y": 286,
+                "id": 1722246403450,
+                "name": "Pstatus",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 944,
+                "y": 360,
+                "id": 1722246462952,
+                "name": "famrel",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 945,
+                "y": 286,
+                "id": 1722246403450,
+                "name": "Pstatus",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 301,
+                "y": 422,
+                "id": 1722246444377,
+                "name": "G_avg",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 799,
+                "y": 386,
+                "id": 1722246474203,
+                "name": "address",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 639.6989440917969,
+                "y": 433.69911193847656,
+                "id": 1722245629960,
+                "name": "absences",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 314.7928161621094,
+                "y": 95.68923950195312,
+                "id": 1722246232324,
+                "name": "Medu",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 301,
+                "y": 422,
+                "id": 1722246444377,
+                "name": "G_avg",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 314.7928161621094,
+                "y": 95.68923950195312,
+                "id": 1722246232324,
+                "name": "Medu",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 639.6989440917969,
+                "y": 433.69911193847656,
+                "id": 1722245629960,
+                "name": "absences",
+                "$custom": true,
+                "tags": []
+            }
+        }
+    ],
+    "treatment": "absences",
+    "outcome": "G_avg",
+    "confounds": [
+        "Medu",
+        "health",
+        "internet",
+        "failures",
+        "famsup"
+    ],
+    "mediators": [],
+    "colliders": [],
+    "prognostics": [
+        "higher",
+        "paid",
+        "schoolsup",
+        "studytime",
+        "Pstatus"
+    ]
+}

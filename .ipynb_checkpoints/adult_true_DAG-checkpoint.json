@@ -1,0 +1,802 @@
+{
+    "nodes": [
+        {
+            "x": 19.0000057220459,
+            "y": 34.999996185302734,
+            "id": 1722935533806,
+            "name": "race",
+            "$custom": true,
+            "tags": []
+        },
+        {
+            "x": 265.00001525878906,
+            "y": 8.999999046325684,
+            "id": 1722935542519,
+            "name": "age",
+            "$custom": true,
+            "tags": []
+        },
+        {
+            "x": 606,
+            "y": 25.999996185302734,
+            "id": 1722935554242,
+            "name": "sex",
+            "$custom": true,
+            "tags": []
+        },
+        {
+            "x": 794,
+            "y": 75,
+            "id": 1722935645828,
+            "name": "native.country",
+            "$custom": true,
+            "tags": []
+        },
+        {
+            "x": 492,
+            "y": 185,
+            "id": 1722935672949,
+            "name": "marital.status",
+            "$custom": true,
+            "tags": []
+        },
+        {
+            "x": 502,
+            "y": 260.00001525878906,
+            "id": 1722935869482,
+            "name": "education",
+            "$custom": true,
+            "tags": []
+        },
+        {
+            "x": 60.000030517578125,
+            "y": 329,
+            "id": 1722935903499,
+            "name": "occupation",
+            "$custom": true,
+            "tags": []
+        },
+        {
+            "x": 245.00001525878906,
+            "y": 332,
+            "id": 1722935920641,
+            "name": "hours.per.week",
+            "$custom": true,
+            "tags": []
+        },
+        {
+            "x": 464.0000305175781,
+            "y": 345,
+            "id": 1722935953685,
+            "name": "workclass",
+            "$custom": true,
+            "tags": []
+        },
+        {
+            "x": 786,
+            "y": 286,
+            "id": 1722935964425,
+            "name": "relationship",
+            "$custom": true,
+            "tags": []
+        },
+        {
+            "x": 475,
+            "y": 446,
+            "id": 1722935975637,
+            "name": "income",
+            "$custom": true,
+            "tags": []
+        }
+    ],
+    "links": [
+        {
+            "source": {
+                "x": 19.0000057220459,
+                "y": 34.999996185302734,
+                "id": 1722935533806,
+                "name": "race",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 492,
+                "y": 185,
+                "id": 1722935672949,
+                "name": "marital.status",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 19.0000057220459,
+                "y": 34.999996185302734,
+                "id": 1722935533806,
+                "name": "race",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 502,
+                "y": 260.00001525878906,
+                "id": 1722935869482,
+                "name": "education",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 19.0000057220459,
+                "y": 34.999996185302734,
+                "id": 1722935533806,
+                "name": "race",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 245.00001525878906,
+                "y": 332,
+                "id": 1722935920641,
+                "name": "hours.per.week",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 19.0000057220459,
+                "y": 34.999996185302734,
+                "id": 1722935533806,
+                "name": "race",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 60.000030517578125,
+                "y": 329,
+                "id": 1722935903499,
+                "name": "occupation",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 19.0000057220459,
+                "y": 34.999996185302734,
+                "id": 1722935533806,
+                "name": "race",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 475,
+                "y": 446,
+                "id": 1722935975637,
+                "name": "income",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 265.00001525878906,
+                "y": 8.999999046325684,
+                "id": 1722935542519,
+                "name": "age",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 475,
+                "y": 446,
+                "id": 1722935975637,
+                "name": "income",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 265.00001525878906,
+                "y": 8.999999046325684,
+                "id": 1722935542519,
+                "name": "age",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 60.000030517578125,
+                "y": 329,
+                "id": 1722935903499,
+                "name": "occupation",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 265.00001525878906,
+                "y": 8.999999046325684,
+                "id": 1722935542519,
+                "name": "age",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 245.00001525878906,
+                "y": 332,
+                "id": 1722935920641,
+                "name": "hours.per.week",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 265.00001525878906,
+                "y": 8.999999046325684,
+                "id": 1722935542519,
+                "name": "age",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 464.0000305175781,
+                "y": 345,
+                "id": 1722935953685,
+                "name": "workclass",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 265.00001525878906,
+                "y": 8.999999046325684,
+                "id": 1722935542519,
+                "name": "age",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 492,
+                "y": 185,
+                "id": 1722935672949,
+                "name": "marital.status",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 265.00001525878906,
+                "y": 8.999999046325684,
+                "id": 1722935542519,
+                "name": "age",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 502,
+                "y": 260.00001525878906,
+                "id": 1722935869482,
+                "name": "education",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 265.00001525878906,
+                "y": 8.999999046325684,
+                "id": 1722935542519,
+                "name": "age",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 786,
+                "y": 286,
+                "id": 1722935964425,
+                "name": "relationship",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 606,
+                "y": 25.999996185302734,
+                "id": 1722935554242,
+                "name": "sex",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 60.000030517578125,
+                "y": 329,
+                "id": 1722935903499,
+                "name": "occupation",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 606,
+                "y": 25.999996185302734,
+                "id": 1722935554242,
+                "name": "sex",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 475,
+                "y": 446,
+                "id": 1722935975637,
+                "name": "income",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 606,
+                "y": 25.999996185302734,
+                "id": 1722935554242,
+                "name": "sex",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 245.00001525878906,
+                "y": 332,
+                "id": 1722935920641,
+                "name": "hours.per.week",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 606,
+                "y": 25.999996185302734,
+                "id": 1722935554242,
+                "name": "sex",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 492,
+                "y": 185,
+                "id": 1722935672949,
+                "name": "marital.status",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 606,
+                "y": 25.999996185302734,
+                "id": 1722935554242,
+                "name": "sex",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 502,
+                "y": 260.00001525878906,
+                "id": 1722935869482,
+                "name": "education",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 606,
+                "y": 25.999996185302734,
+                "id": 1722935554242,
+                "name": "sex",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 786,
+                "y": 286,
+                "id": 1722935964425,
+                "name": "relationship",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 794,
+                "y": 75,
+                "id": 1722935645828,
+                "name": "native.country",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 786,
+                "y": 286,
+                "id": 1722935964425,
+                "name": "relationship",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 794,
+                "y": 75,
+                "id": 1722935645828,
+                "name": "native.country",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 475,
+                "y": 446,
+                "id": 1722935975637,
+                "name": "income",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 794,
+                "y": 75,
+                "id": 1722935645828,
+                "name": "native.country",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 464.0000305175781,
+                "y": 345,
+                "id": 1722935953685,
+                "name": "workclass",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 794,
+                "y": 75,
+                "id": 1722935645828,
+                "name": "native.country",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 245.00001525878906,
+                "y": 332,
+                "id": 1722935920641,
+                "name": "hours.per.week",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 794,
+                "y": 75,
+                "id": 1722935645828,
+                "name": "native.country",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 502,
+                "y": 260.00001525878906,
+                "id": 1722935869482,
+                "name": "education",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 794,
+                "y": 75,
+                "id": 1722935645828,
+                "name": "native.country",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 492,
+                "y": 185,
+                "id": 1722935672949,
+                "name": "marital.status",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 492,
+                "y": 185,
+                "id": 1722935672949,
+                "name": "marital.status",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 60.000030517578125,
+                "y": 329,
+                "id": 1722935903499,
+                "name": "occupation",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 492,
+                "y": 185,
+                "id": 1722935672949,
+                "name": "marital.status",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 245.00001525878906,
+                "y": 332,
+                "id": 1722935920641,
+                "name": "hours.per.week",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 492,
+                "y": 185,
+                "id": 1722935672949,
+                "name": "marital.status",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 475,
+                "y": 446,
+                "id": 1722935975637,
+                "name": "income",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 492,
+                "y": 185,
+                "id": 1722935672949,
+                "name": "marital.status",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 464.0000305175781,
+                "y": 345,
+                "id": 1722935953685,
+                "name": "workclass",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 492,
+                "y": 185,
+                "id": 1722935672949,
+                "name": "marital.status",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 502,
+                "y": 260.00001525878906,
+                "id": 1722935869482,
+                "name": "education",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 492,
+                "y": 185,
+                "id": 1722935672949,
+                "name": "marital.status",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 786,
+                "y": 286,
+                "id": 1722935964425,
+                "name": "relationship",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 502,
+                "y": 260.00001525878906,
+                "id": 1722935869482,
+                "name": "education",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 60.000030517578125,
+                "y": 329,
+                "id": 1722935903499,
+                "name": "occupation",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 502,
+                "y": 260.00001525878906,
+                "id": 1722935869482,
+                "name": "education",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 245.00001525878906,
+                "y": 332,
+                "id": 1722935920641,
+                "name": "hours.per.week",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 502,
+                "y": 260.00001525878906,
+                "id": 1722935869482,
+                "name": "education",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 464.0000305175781,
+                "y": 345,
+                "id": 1722935953685,
+                "name": "workclass",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 502,
+                "y": 260.00001525878906,
+                "id": 1722935869482,
+                "name": "education",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 475,
+                "y": 446,
+                "id": 1722935975637,
+                "name": "income",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 502,
+                "y": 260.00001525878906,
+                "id": 1722935869482,
+                "name": "education",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 786,
+                "y": 286,
+                "id": 1722935964425,
+                "name": "relationship",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 60.000030517578125,
+                "y": 329,
+                "id": 1722935903499,
+                "name": "occupation",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 475,
+                "y": 446,
+                "id": 1722935975637,
+                "name": "income",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 245.00001525878906,
+                "y": 332,
+                "id": 1722935920641,
+                "name": "hours.per.week",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 475,
+                "y": 446,
+                "id": 1722935975637,
+                "name": "income",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 464.0000305175781,
+                "y": 345,
+                "id": 1722935953685,
+                "name": "workclass",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 475,
+                "y": 446,
+                "id": 1722935975637,
+                "name": "income",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 786,
+                "y": 286,
+                "id": 1722935964425,
+                "name": "relationship",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 475,
+                "y": 446,
+                "id": 1722935975637,
+                "name": "income",
+                "$custom": true,
+                "tags": []
+            }
+        }
+    ],
+    "treatment": "",
+    "outcome": "",
+    "confounds": [],
+    "mediators": [],
+    "colliders": [],
+    "prognostics": []
+}

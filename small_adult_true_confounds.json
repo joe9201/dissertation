@@ -1,0 +1,363 @@
+{
+    "nodes": [
+        {
+            "x": 355.94500516796467,
+            "y": 64.68074159958445,
+            "id": 1722935542519,
+            "name": "age",
+            "$custom": true,
+            "tags": []
+        },
+        {
+            "x": 940,
+            "y": 279.39427684896157,
+            "id": 1722935645828,
+            "name": "native.country",
+            "$custom": true,
+            "tags": []
+        },
+        {
+            "x": 753.6645169772502,
+            "y": 60,
+            "id": 1722935869482,
+            "name": "education",
+            "$custom": true,
+            "tags": []
+        },
+        {
+            "x": 60,
+            "y": 212.10305464366266,
+            "id": 1722935903499,
+            "name": "occupation",
+            "$custom": true,
+            "tags": []
+        },
+        {
+            "x": 104.50382563011023,
+            "y": 371.7210962254934,
+            "id": 1722935920641,
+            "name": "hours.per.week",
+            "$custom": true,
+            "tags": []
+        },
+        {
+            "x": 604.255135051955,
+            "y": 213.00485145880077,
+            "id": 1722935953685,
+            "name": "workclass",
+            "$custom": true,
+            "tags": []
+        },
+        {
+            "x": 627.5984802342264,
+            "y": 440,
+            "id": 1722935975637,
+            "name": "income",
+            "$custom": true,
+            "tags": []
+        }
+    ],
+    "links": [
+        {
+            "source": {
+                "x": 355.94500516796467,
+                "y": 64.68074159958445,
+                "id": 1722935542519,
+                "name": "age",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 627.5984802342264,
+                "y": 440,
+                "id": 1722935975637,
+                "name": "income",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 355.94500516796467,
+                "y": 64.68074159958445,
+                "id": 1722935542519,
+                "name": "age",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 60,
+                "y": 212.10305464366266,
+                "id": 1722935903499,
+                "name": "occupation",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 355.94500516796467,
+                "y": 64.68074159958445,
+                "id": 1722935542519,
+                "name": "age",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 104.50382563011023,
+                "y": 371.7210962254934,
+                "id": 1722935920641,
+                "name": "hours.per.week",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 355.94500516796467,
+                "y": 64.68074159958445,
+                "id": 1722935542519,
+                "name": "age",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 604.255135051955,
+                "y": 213.00485145880077,
+                "id": 1722935953685,
+                "name": "workclass",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 355.94500516796467,
+                "y": 64.68074159958445,
+                "id": 1722935542519,
+                "name": "age",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 753.6645169772502,
+                "y": 60,
+                "id": 1722935869482,
+                "name": "education",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 940,
+                "y": 279.39427684896157,
+                "id": 1722935645828,
+                "name": "native.country",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 627.5984802342264,
+                "y": 440,
+                "id": 1722935975637,
+                "name": "income",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 940,
+                "y": 279.39427684896157,
+                "id": 1722935645828,
+                "name": "native.country",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 604.255135051955,
+                "y": 213.00485145880077,
+                "id": 1722935953685,
+                "name": "workclass",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 940,
+                "y": 279.39427684896157,
+                "id": 1722935645828,
+                "name": "native.country",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 104.50382563011023,
+                "y": 371.7210962254934,
+                "id": 1722935920641,
+                "name": "hours.per.week",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 940,
+                "y": 279.39427684896157,
+                "id": 1722935645828,
+                "name": "native.country",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 753.6645169772502,
+                "y": 60,
+                "id": 1722935869482,
+                "name": "education",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 753.6645169772502,
+                "y": 60,
+                "id": 1722935869482,
+                "name": "education",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 60,
+                "y": 212.10305464366266,
+                "id": 1722935903499,
+                "name": "occupation",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 753.6645169772502,
+                "y": 60,
+                "id": 1722935869482,
+                "name": "education",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 104.50382563011023,
+                "y": 371.7210962254934,
+                "id": 1722935920641,
+                "name": "hours.per.week",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 753.6645169772502,
+                "y": 60,
+                "id": 1722935869482,
+                "name": "education",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 604.255135051955,
+                "y": 213.00485145880077,
+                "id": 1722935953685,
+                "name": "workclass",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 753.6645169772502,
+                "y": 60,
+                "id": 1722935869482,
+                "name": "education",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 627.5984802342264,
+                "y": 440,
+                "id": 1722935975637,
+                "name": "income",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 60,
+                "y": 212.10305464366266,
+                "id": 1722935903499,
+                "name": "occupation",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 627.5984802342264,
+                "y": 440,
+                "id": 1722935975637,
+                "name": "income",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 104.50382563011023,
+                "y": 371.7210962254934,
+                "id": 1722935920641,
+                "name": "hours.per.week",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 627.5984802342264,
+                "y": 440,
+                "id": 1722935975637,
+                "name": "income",
+                "$custom": true,
+                "tags": []
+            }
+        },
+        {
+            "source": {
+                "x": 604.255135051955,
+                "y": 213.00485145880077,
+                "id": 1722935953685,
+                "name": "workclass",
+                "$custom": true,
+                "tags": []
+            },
+            "target": {
+                "x": 627.5984802342264,
+                "y": 440,
+                "id": 1722935975637,
+                "name": "income",
+                "$custom": true,
+                "tags": []
+            }
+        }
+    ],
+    "treatment": "hours.per.week",
+    "outcome": "income",
+    "confounds": [
+        "age",
+        "native.country",
+        "education"
+    ],
+    "mediators": [],
+    "colliders": [],
+    "prognostics": [
+        "occupation",
+        "workclass"
+    ]
+}
